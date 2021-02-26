@@ -1,0 +1,117 @@
+version: '3'
+
+services:
+
+  svn-cloc:
+    build: svn-cloc
+    ports:
+      - 8081:8080
+
+  coupling-info:
+    build: coupling-info
+    ports:
+      - 8082:8080
+
+  developer-info:
+    build: developer-info
+    ports:
+      - 8083:8080
+
+  git-cloc:
+    build: git-cloc
+    ports:
+      - 8084:8080
+
+  git-go-stats:
+    build: git-go-stats
+    ports:
+      - 8085:8080
+
+  git-json-log:
+    build: git-json-log
+    ports:
+      - 8086:8080
+
+  git-language-metrics:
+    build: git-language-metrics
+    ports:
+      - 8087:8080
+
+  git-space-complexity:
+    build: git-space-complexity
+    ports:
+      - 8088:8080
+
+  git-toxicity-checker:
+    build: git-toxicity-checker
+    ports:
+      - 8089:8080
+
+  language-breakdown:
+    build: language-breakdown
+    ports:
+      - 8090:8080
+
+  ownership-info:
+    build: ownership-info
+    ports:
+      - 8091:8080
+
+  revision-analyser:
+    build: revision-analyser
+    ports:
+      - 8092:8080
+
+  svn-space-complexity:
+    build: svn-space-complexity
+    ports:
+      - 8093:8080
+
+  svn-go-stats:
+    build: svn-go-stats
+    ports:
+      - 8094:8080
+
+  svn-info:
+    build: svn-info
+    ports:
+      - 8095:8080
+
+  svn-json-log:
+    build: svn-json-log
+    ports:
+      - 8096:8080
+
+  svn-toxicity-checker:
+    build: svn-toxicity-checker
+    ports:
+      - 8097:8080
+
+  unique-files:
+    build: unique-files
+    ports:
+      - 8098:8080
+  
+  ui:
+    build: ui
+    ports:
+      - 8080:8080
+    environment:
+    - REACT_APP_RESEARCHAPI_GATEWAY_SYNC_ENDPOINT="http://localhost:"
+    - REACT_APP_BTIIC_SERVICES_CLOC=8081
+    - REACT_APP_BTIIC_SERVICES_SVN_JSON_LOG=8096
+    - REACT_APP_BTIIC_SERVICES_TOXICITY_CHECKER=8097
+    - REACT_APP_BTIIC_SERVICES_GOMETRICS_CHECKER=8094
+    - REACT_APP_BTIIC_SERVICES_DEVELOPER_INFO=8083
+    - REACT_APP_BTIIC_SERVICES_UNIQUE_FILES=8098
+    - REACT_APP_BTIIC_SERVICES_REVISION_ANALYSER=8092
+    - REACT_APP_BTIIC_SERVICES_OWNERSHIP_INFO=8091
+    - REACT_APP_BTIIC_SERVICES_COUPLING_INFO=8082
+    - REACT_APP_BTIIC_SERVICES_SPACE_COMPLEXITY_ANALYSER=8093
+    - REACT_APP_BTIIC_SERVICES_LANGUAGE_BREAKDOWN=8090
+    - REACT_APP_BTIIC_SERVICES_GIT_CLOC=8084
+    - REACT_APP_BTIIC_SERVICES_GIT_JSON_LOG=8086
+    - REACT_APP_BTIIC_SERVICES_GIT_TOXICITY_CHECKER=8089
+    - REACT_APP_BTIIC_SERVICES_GIT_GOMETRICS_CHECKER=8085
+    - REACT_APP_BTIIC_SERVICES_GIT_SPACE_COMPLEXITY_ANALYSER=8088
+    - REACT_APP_BTIIC_SERVICES_GIT_LANGUAGEMETRICS_CHECKER=8087

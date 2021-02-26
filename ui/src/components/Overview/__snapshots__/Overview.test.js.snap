@@ -1,0 +1,3797 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview init() should create with no errors 1`] = `
+<div
+  className="Overview"
+>
+  <h2>
+    Repository Overview
+  </h2>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="-striped -highlight"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Metric",
+          "accessor": "metric",
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Value",
+          "accessor": "value",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "metric": "Lines of Code",
+          "value": 191162,
+        },
+        Object {
+          "metric": "Number of Files",
+          "value": 402,
+        },
+        Object {
+          "metric": "Number of Active Developers",
+          "value": "12",
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={3}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  />
+  <h2>
+    Individual Language Metrics
+  </h2>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="-striped -highlight"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Language",
+          "accessor": "name",
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Lines of Code",
+          "accessor": "loc",
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Number of Files",
+          "accessor": "numfiles",
+        },
+      ]
+    }
+    data={Array []}
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={10}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  />
+  <h2>
+    Language Breakdown Charts
+  </h2>
+  <div
+    className="Charts"
+  >
+    <span
+      className="FileBreakdown"
+    >
+      <h3>
+        Files
+      </h3>
+      <ChartComponent
+        className="Doughnut"
+        data={
+          Object {
+            "datasets": Array [
+              Object {
+                "backgroundColor": Array [],
+                "data": Array [],
+                "hoverBackgroundColor": Array [],
+              },
+            ],
+            "labels": Array [],
+          }
+        }
+        datasetKeyProvider={[Function]}
+        height={150}
+        legend={
+          Object {
+            "display": true,
+            "position": "bottom",
+          }
+        }
+        options={Object {}}
+        redraw={false}
+        type="doughnut"
+        width={300}
+      />
+    </span>
+    <span
+      className="LineBreakdown"
+    >
+      <h3>
+        Lines of Code
+      </h3>
+      <ChartComponent
+        className="Doughnut"
+        data={
+          Object {
+            "datasets": Array [
+              Object {
+                "backgroundColor": Array [],
+                "data": Array [],
+                "hoverBackgroundColor": Array [],
+              },
+            ],
+            "labels": Array [],
+          }
+        }
+        datasetKeyProvider={[Function]}
+        height={150}
+        legend={
+          Object {
+            "display": true,
+            "position": "bottom",
+          }
+        }
+        options={Object {}}
+        redraw={false}
+        type="doughnut"
+        width={300}
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Overview init() should create with no errors 2`] = `
+<Overview
+  breakdown={Array []}
+  developers={
+    Array [
+      "sheshikiran <sheshikiran@email.com>",
+      "steven <steven@email.com>",
+      "Huw <huw@email.com>",
+      "Samuel <samuel@email.com>",
+      "patrick <patrick@email.com>",
+      "Calum <calum@email.com>",
+      "Mahesh <mahesh@email.com>",
+      "Blair <Blair@email.com>",
+    ]
+  }
+  files={402}
+  loc={191162}
+>
+  <div
+    className="Overview"
+  >
+    <h2>
+      Repository Overview
+    </h2>
+    <ReactTable
+      AggregatedComponent={[Function]}
+      ExpanderComponent={[Function]}
+      FilterComponent={[Function]}
+      LoadingComponent={[Function]}
+      NoDataComponent={[Function]}
+      PadRowComponent={[Function]}
+      PaginationComponent={[Function]}
+      PivotValueComponent={[Function]}
+      ResizerComponent={[Function]}
+      TableComponent={[Function]}
+      TbodyComponent={[Function]}
+      TdComponent={[Function]}
+      TfootComponent={[Function]}
+      ThComponent={[Function]}
+      TheadComponent={[Function]}
+      TrComponent={[Function]}
+      TrGroupComponent={[Function]}
+      aggregatedKey="_aggregated"
+      className="-striped -highlight"
+      collapseOnDataChange={true}
+      collapseOnPageChange={true}
+      collapseOnSortingChange={true}
+      column={
+        Object {
+          "Aggregated": undefined,
+          "Cell": undefined,
+          "Expander": undefined,
+          "Filter": undefined,
+          "Footer": undefined,
+          "Header": undefined,
+          "Pivot": undefined,
+          "PivotValue": undefined,
+          "Placeholder": undefined,
+          "aggregate": undefined,
+          "className": "",
+          "filterAll": false,
+          "filterMethod": undefined,
+          "filterable": undefined,
+          "footerClassName": "",
+          "footerStyle": Object {},
+          "getFooterProps": [Function],
+          "getHeaderProps": [Function],
+          "getProps": [Function],
+          "headerClassName": "",
+          "headerStyle": Object {},
+          "minResizeWidth": 11,
+          "minWidth": 100,
+          "resizable": undefined,
+          "show": true,
+          "sortMethod": undefined,
+          "sortable": undefined,
+          "style": Object {},
+        }
+      }
+      columns={
+        Array [
+          Object {
+            "Header": "Metric",
+            "accessor": "metric",
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "Value",
+            "accessor": "value",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "metric": "Lines of Code",
+            "value": 191162,
+          },
+          Object {
+            "metric": "Number of Files",
+            "value": 402,
+          },
+          Object {
+            "metric": "Number of Active Developers",
+            "value": "12",
+          },
+        ]
+      }
+      defaultExpanded={Object {}}
+      defaultFilterMethod={[Function]}
+      defaultFiltered={Array []}
+      defaultPage={0}
+      defaultPageSize={3}
+      defaultResized={Array []}
+      defaultSortDesc={false}
+      defaultSortMethod={[Function]}
+      defaultSorted={Array []}
+      expanderDefaults={
+        Object {
+          "filterable": false,
+          "resizable": false,
+          "sortable": false,
+          "width": 35,
+        }
+      }
+      filterable={false}
+      freezeWhenExpanded={false}
+      getLoadingProps={[Function]}
+      getNoDataProps={[Function]}
+      getPaginationProps={[Function]}
+      getProps={[Function]}
+      getResizerProps={[Function]}
+      getTableProps={[Function]}
+      getTbodyProps={[Function]}
+      getTdProps={[Function]}
+      getTfootProps={[Function]}
+      getTfootTdProps={[Function]}
+      getTfootTrProps={[Function]}
+      getTheadFilterProps={[Function]}
+      getTheadFilterThProps={[Function]}
+      getTheadFilterTrProps={[Function]}
+      getTheadGroupProps={[Function]}
+      getTheadGroupThProps={[Function]}
+      getTheadGroupTrProps={[Function]}
+      getTheadProps={[Function]}
+      getTheadThProps={[Function]}
+      getTheadTrProps={[Function]}
+      getTrGroupProps={[Function]}
+      getTrProps={[Function]}
+      groupedByPivotKey="_groupedByPivot"
+      indexKey="_index"
+      loading={false}
+      loadingText="Loading..."
+      multiSort={true}
+      nestingLevelKey="_nestingLevel"
+      nextText="Next"
+      noDataText="No rows found"
+      ofText="of"
+      onFetchData={[Function]}
+      originalKey="_original"
+      pageJumpText="jump to page"
+      pageSizeOptions={
+        Array [
+          5,
+          10,
+          20,
+          25,
+          50,
+          100,
+        ]
+      }
+      pageText="Page"
+      pivotDefaults={Object {}}
+      pivotIDKey="_pivotID"
+      pivotValKey="_pivotVal"
+      previousText="Previous"
+      resizable={true}
+      resolveData={[Function]}
+      rowsSelectorText="rows per page"
+      rowsText="rows"
+      showPageJump={true}
+      showPageSizeOptions={true}
+      showPagination={true}
+      showPaginationBottom={true}
+      showPaginationTop={false}
+      sortable={true}
+      style={Object {}}
+      subRowsKey="_subRows"
+    >
+      <div
+        className="ReactTable -striped -highlight"
+        style={Object {}}
+      >
+        <TableComponent
+          className=""
+        >
+          <div
+            className="rt-table"
+            role="grid"
+          >
+            <Thead
+              className="-header"
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <div
+                className="rt-thead -header"
+                style={
+                  Object {
+                    "minWidth": "200px",
+                  }
+                }
+              >
+                <TrComponent>
+                  <div
+                    className="rt-tr"
+                    role="row"
+                  >
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="0-metric"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Metric
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="1-value"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Value
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                  </div>
+                </TrComponent>
+              </div>
+            </Thead>
+            <Tbody
+              className=""
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <div
+                className="rt-tbody"
+                style={
+                  Object {
+                    "minWidth": "200px",
+                  }
+                }
+              >
+                <TrGroupComponent
+                  key="0"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-odd"
+                    >
+                      <div
+                        className="rt-tr -odd"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-metric"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            Lines of Code
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-value"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Value",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "value",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={0}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  0,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "metric": "Lines of Code",
+                                  "value": 191162,
+                                }
+                              }
+                              page={0}
+                              pageSize={3}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 0,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "metric": "Lines of Code",
+                                    "value": 191162,
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 0,
+                                  "metric": "Lines of Code",
+                                  "value": 191162,
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={191162}
+                              viewIndex={0}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                191162
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="1"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-even"
+                    >
+                      <div
+                        className="rt-tr -even"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-metric"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            Number of Files
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-value"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Value",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "value",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={1}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  1,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "metric": "Number of Files",
+                                  "value": 402,
+                                }
+                              }
+                              page={0}
+                              pageSize={3}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 1,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "metric": "Number of Files",
+                                    "value": 402,
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 1,
+                                  "metric": "Number of Files",
+                                  "value": 402,
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={402}
+                              viewIndex={1}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                402
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="2"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-odd"
+                    >
+                      <div
+                        className="rt-tr -odd"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-metric"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            Number of Active Developers
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-value"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Value",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "value",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={2}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  2,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "metric": "Number of Active Developers",
+                                  "value": "12",
+                                }
+                              }
+                              page={0}
+                              pageSize={3}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 2,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "metric": "Number of Active Developers",
+                                    "value": "12",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 2,
+                                  "metric": "Number of Active Developers",
+                                  "value": "12",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value="12"
+                              viewIndex={2}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                12
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+              </div>
+            </Tbody>
+          </div>
+        </TableComponent>
+        <div
+          className="pagination-bottom"
+        >
+          <ReactTablePagination
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NextComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            PreviousComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            allDecoratedColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Metric",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "metric",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Value",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "value",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            allVisibleColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Metric",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "metric",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Value",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "value",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            canNext={false}
+            canPrevious={false}
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Header": "Metric",
+                  "accessor": "metric",
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Value",
+                  "accessor": "value",
+                },
+              ]
+            }
+            currentlyResizing={false}
+            data={
+              Array [
+                Object {
+                  "metric": "Lines of Code",
+                  "value": 191162,
+                },
+                Object {
+                  "metric": "Number of Files",
+                  "value": 402,
+                },
+                Object {
+                  "metric": "Number of Active Developers",
+                  "value": "12",
+                },
+              ]
+            }
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPage={0}
+            defaultPageSize={3}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanded={Object {}}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={false}
+            filtered={Array []}
+            freezeWhenExpanded={false}
+            frozen={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            hasHeaderGroups={false}
+            headerGroups={Array []}
+            indexKey="_index"
+            isTop={false}
+            loading={false}
+            loadingText="Loading..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Next"
+            noDataText="No rows found"
+            ofText="of"
+            onFetchData={[Function]}
+            onPageChange={[Function]}
+            onPageSizeChange={[Function]}
+            originalKey="_original"
+            page={0}
+            pageJumpText="jump to page"
+            pageSize={3}
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Page"
+            pages={1}
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Previous"
+            renderCurrentPage={[Function]}
+            renderPageJump={[Function]}
+            renderPageSizeOptions={[Function]}
+            renderTotalPagesCount={[Function]}
+            resizable={true}
+            resized={Array []}
+            resolveData={[Function]}
+            resolvedData={
+              Array [
+                Object {
+                  "_index": 0,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Lines of Code",
+                    "value": 191162,
+                  },
+                  "_subRows": undefined,
+                  "metric": "Lines of Code",
+                  "value": 191162,
+                },
+                Object {
+                  "_index": 1,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Number of Files",
+                    "value": 402,
+                  },
+                  "_subRows": undefined,
+                  "metric": "Number of Files",
+                  "value": 402,
+                },
+                Object {
+                  "_index": 2,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Number of Active Developers",
+                    "value": "12",
+                  },
+                  "_subRows": undefined,
+                  "metric": "Number of Active Developers",
+                  "value": "12",
+                },
+              ]
+            }
+            rowsSelectorText="rows per page"
+            rowsText="rows"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            skipNextSort={false}
+            sortable={true}
+            sorted={Array []}
+            sortedData={
+              Array [
+                Object {
+                  "_index": 0,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Lines of Code",
+                    "value": 191162,
+                  },
+                  "_subRows": undefined,
+                  "metric": "Lines of Code",
+                  "value": 191162,
+                },
+                Object {
+                  "_index": 1,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Number of Files",
+                    "value": 402,
+                  },
+                  "_subRows": undefined,
+                  "metric": "Number of Files",
+                  "value": 402,
+                },
+                Object {
+                  "_index": 2,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "metric": "Number of Active Developers",
+                    "value": "12",
+                  },
+                  "_subRows": undefined,
+                  "metric": "Number of Active Developers",
+                  "value": "12",
+                },
+              ]
+            }
+            subRowsKey="_subRows"
+          >
+            <div
+              className="-pagination"
+            >
+              <div
+                className="-previous"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Previous
+                  </button>
+                </defaultButton>
+              </div>
+              <div
+                className="-center"
+              >
+                <span
+                  className="-pageInfo"
+                >
+                  Page
+                   
+                  <div
+                    className="-pageJump"
+                  >
+                    <input
+                      aria-label="jump to page"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onKeyPress={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                  </div>
+                   
+                  of
+                   
+                  <span
+                    className="-totalPages"
+                  >
+                    1
+                  </span>
+                </span>
+                <span
+                  className="select-wrap -pageSizeOptions"
+                >
+                  <select
+                    aria-label="rows per page"
+                    onChange={[Function]}
+                    value={3}
+                  >
+                    <option
+                      key="0"
+                      value={5}
+                    >
+                      5 rows
+                    </option>
+                    <option
+                      key="1"
+                      value={10}
+                    >
+                      10 rows
+                    </option>
+                    <option
+                      key="2"
+                      value={20}
+                    >
+                      20 rows
+                    </option>
+                    <option
+                      key="3"
+                      value={25}
+                    >
+                      25 rows
+                    </option>
+                    <option
+                      key="4"
+                      value={50}
+                    >
+                      50 rows
+                    </option>
+                    <option
+                      key="5"
+                      value={100}
+                    >
+                      100 rows
+                    </option>
+                  </select>
+                </span>
+              </div>
+              <div
+                className="-next"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Next
+                  </button>
+                </defaultButton>
+              </div>
+            </div>
+          </ReactTablePagination>
+        </div>
+        <LoadingComponent
+          loading={false}
+          loadingText="Loading..."
+        >
+          <div
+            className="-loading"
+          >
+            <div
+              className="-loading-inner"
+            >
+              Loading...
+            </div>
+          </div>
+        </LoadingComponent>
+      </div>
+    </ReactTable>
+    <h2>
+      Individual Language Metrics
+    </h2>
+    <ReactTable
+      AggregatedComponent={[Function]}
+      ExpanderComponent={[Function]}
+      FilterComponent={[Function]}
+      LoadingComponent={[Function]}
+      NoDataComponent={[Function]}
+      PadRowComponent={[Function]}
+      PaginationComponent={[Function]}
+      PivotValueComponent={[Function]}
+      ResizerComponent={[Function]}
+      TableComponent={[Function]}
+      TbodyComponent={[Function]}
+      TdComponent={[Function]}
+      TfootComponent={[Function]}
+      ThComponent={[Function]}
+      TheadComponent={[Function]}
+      TrComponent={[Function]}
+      TrGroupComponent={[Function]}
+      aggregatedKey="_aggregated"
+      className="-striped -highlight"
+      collapseOnDataChange={true}
+      collapseOnPageChange={true}
+      collapseOnSortingChange={true}
+      column={
+        Object {
+          "Aggregated": undefined,
+          "Cell": undefined,
+          "Expander": undefined,
+          "Filter": undefined,
+          "Footer": undefined,
+          "Header": undefined,
+          "Pivot": undefined,
+          "PivotValue": undefined,
+          "Placeholder": undefined,
+          "aggregate": undefined,
+          "className": "",
+          "filterAll": false,
+          "filterMethod": undefined,
+          "filterable": undefined,
+          "footerClassName": "",
+          "footerStyle": Object {},
+          "getFooterProps": [Function],
+          "getHeaderProps": [Function],
+          "getProps": [Function],
+          "headerClassName": "",
+          "headerStyle": Object {},
+          "minResizeWidth": 11,
+          "minWidth": 100,
+          "resizable": undefined,
+          "show": true,
+          "sortMethod": undefined,
+          "sortable": undefined,
+          "style": Object {},
+        }
+      }
+      columns={
+        Array [
+          Object {
+            "Header": "Language",
+            "accessor": "name",
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "Lines of Code",
+            "accessor": "loc",
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "Number of Files",
+            "accessor": "numfiles",
+          },
+        ]
+      }
+      data={Array []}
+      defaultExpanded={Object {}}
+      defaultFilterMethod={[Function]}
+      defaultFiltered={Array []}
+      defaultPage={0}
+      defaultPageSize={10}
+      defaultResized={Array []}
+      defaultSortDesc={false}
+      defaultSortMethod={[Function]}
+      defaultSorted={Array []}
+      expanderDefaults={
+        Object {
+          "filterable": false,
+          "resizable": false,
+          "sortable": false,
+          "width": 35,
+        }
+      }
+      filterable={false}
+      freezeWhenExpanded={false}
+      getLoadingProps={[Function]}
+      getNoDataProps={[Function]}
+      getPaginationProps={[Function]}
+      getProps={[Function]}
+      getResizerProps={[Function]}
+      getTableProps={[Function]}
+      getTbodyProps={[Function]}
+      getTdProps={[Function]}
+      getTfootProps={[Function]}
+      getTfootTdProps={[Function]}
+      getTfootTrProps={[Function]}
+      getTheadFilterProps={[Function]}
+      getTheadFilterThProps={[Function]}
+      getTheadFilterTrProps={[Function]}
+      getTheadGroupProps={[Function]}
+      getTheadGroupThProps={[Function]}
+      getTheadGroupTrProps={[Function]}
+      getTheadProps={[Function]}
+      getTheadThProps={[Function]}
+      getTheadTrProps={[Function]}
+      getTrGroupProps={[Function]}
+      getTrProps={[Function]}
+      groupedByPivotKey="_groupedByPivot"
+      indexKey="_index"
+      loading={false}
+      loadingText="Loading..."
+      multiSort={true}
+      nestingLevelKey="_nestingLevel"
+      nextText="Next"
+      noDataText="No rows found"
+      ofText="of"
+      onFetchData={[Function]}
+      originalKey="_original"
+      pageJumpText="jump to page"
+      pageSizeOptions={
+        Array [
+          5,
+          10,
+          20,
+          25,
+          50,
+          100,
+        ]
+      }
+      pageText="Page"
+      pivotDefaults={Object {}}
+      pivotIDKey="_pivotID"
+      pivotValKey="_pivotVal"
+      previousText="Previous"
+      resizable={true}
+      resolveData={[Function]}
+      rowsSelectorText="rows per page"
+      rowsText="rows"
+      showPageJump={true}
+      showPageSizeOptions={true}
+      showPagination={true}
+      showPaginationBottom={true}
+      showPaginationTop={false}
+      sortable={true}
+      style={Object {}}
+      subRowsKey="_subRows"
+    >
+      <div
+        className="ReactTable -striped -highlight"
+        style={Object {}}
+      >
+        <TableComponent
+          className=""
+        >
+          <div
+            className="rt-table"
+            role="grid"
+          >
+            <Thead
+              className="-header"
+              style={
+                Object {
+                  "minWidth": "300px",
+                }
+              }
+            >
+              <div
+                className="rt-thead -header"
+                style={
+                  Object {
+                    "minWidth": "300px",
+                  }
+                }
+              >
+                <TrComponent>
+                  <div
+                    className="rt-tr"
+                    role="row"
+                  >
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="0-name"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Language
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="1-loc"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Lines of Code
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="2-numfiles"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Number of Files
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                  </div>
+                </TrComponent>
+              </div>
+            </Thead>
+            <Tbody
+              className=""
+              style={
+                Object {
+                  "minWidth": "300px",
+                }
+              }
+            >
+              <div
+                className="rt-tbody"
+                style={
+                  Object {
+                    "minWidth": "300px",
+                  }
+                }
+              >
+                <TrGroupComponent
+                  key="pad-0"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-1"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-2"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-3"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-4"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-5"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-6"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-7"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-8"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-9"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-loc"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="2-numfiles"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+              </div>
+            </Tbody>
+          </div>
+        </TableComponent>
+        <div
+          className="pagination-bottom"
+        >
+          <ReactTablePagination
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NextComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            PreviousComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            allDecoratedColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Language",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "name",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Lines of Code",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "loc",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Number of Files",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "numfiles",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            allVisibleColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Language",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "name",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Lines of Code",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "loc",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Number of Files",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "numfiles",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            canNext={false}
+            canPrevious={false}
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Header": "Language",
+                  "accessor": "name",
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Lines of Code",
+                  "accessor": "loc",
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Number of Files",
+                  "accessor": "numfiles",
+                },
+              ]
+            }
+            currentlyResizing={false}
+            data={Array []}
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPage={0}
+            defaultPageSize={10}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanded={Object {}}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={false}
+            filtered={Array []}
+            freezeWhenExpanded={false}
+            frozen={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            hasHeaderGroups={false}
+            headerGroups={Array []}
+            indexKey="_index"
+            isTop={false}
+            loading={false}
+            loadingText="Loading..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Next"
+            noDataText="No rows found"
+            ofText="of"
+            onFetchData={[Function]}
+            onPageChange={[Function]}
+            onPageSizeChange={[Function]}
+            originalKey="_original"
+            page={0}
+            pageJumpText="jump to page"
+            pageSize={10}
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Page"
+            pages={0}
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Previous"
+            renderCurrentPage={[Function]}
+            renderPageJump={[Function]}
+            renderPageSizeOptions={[Function]}
+            renderTotalPagesCount={[Function]}
+            resizable={true}
+            resized={Array []}
+            resolveData={[Function]}
+            resolvedData={Array []}
+            rowsSelectorText="rows per page"
+            rowsText="rows"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            skipNextSort={false}
+            sortable={true}
+            sorted={Array []}
+            sortedData={Array []}
+            subRowsKey="_subRows"
+          >
+            <div
+              className="-pagination"
+            >
+              <div
+                className="-previous"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Previous
+                  </button>
+                </defaultButton>
+              </div>
+              <div
+                className="-center"
+              >
+                <span
+                  className="-pageInfo"
+                >
+                  Page
+                   
+                  <div
+                    className="-pageJump"
+                  >
+                    <input
+                      aria-label="jump to page"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onKeyPress={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                  </div>
+                   
+                  of
+                   
+                  <span
+                    className="-totalPages"
+                  >
+                    1
+                  </span>
+                </span>
+                <span
+                  className="select-wrap -pageSizeOptions"
+                >
+                  <select
+                    aria-label="rows per page"
+                    onChange={[Function]}
+                    value={10}
+                  >
+                    <option
+                      key="0"
+                      value={5}
+                    >
+                      5 rows
+                    </option>
+                    <option
+                      key="1"
+                      value={10}
+                    >
+                      10 rows
+                    </option>
+                    <option
+                      key="2"
+                      value={20}
+                    >
+                      20 rows
+                    </option>
+                    <option
+                      key="3"
+                      value={25}
+                    >
+                      25 rows
+                    </option>
+                    <option
+                      key="4"
+                      value={50}
+                    >
+                      50 rows
+                    </option>
+                    <option
+                      key="5"
+                      value={100}
+                    >
+                      100 rows
+                    </option>
+                  </select>
+                </span>
+              </div>
+              <div
+                className="-next"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Next
+                  </button>
+                </defaultButton>
+              </div>
+            </div>
+          </ReactTablePagination>
+        </div>
+        <NoData>
+          <div
+            className="rt-noData"
+          >
+            No rows found
+          </div>
+        </NoData>
+        <LoadingComponent
+          loading={false}
+          loadingText="Loading..."
+        >
+          <div
+            className="-loading"
+          >
+            <div
+              className="-loading-inner"
+            >
+              Loading...
+            </div>
+          </div>
+        </LoadingComponent>
+      </div>
+    </ReactTable>
+    <h2>
+      Language Breakdown Charts
+    </h2>
+    <div
+      className="Charts"
+    >
+      <span
+        className="FileBreakdown"
+      >
+        <h3>
+          Files
+        </h3>
+        <ChartComponent
+          className="Doughnut"
+          data={
+            Object {
+              "datasets": Array [
+                Object {
+                  "backgroundColor": Array [],
+                  "data": Array [],
+                  "hoverBackgroundColor": Array [],
+                },
+              ],
+              "labels": Array [],
+            }
+          }
+          datasetKeyProvider={[Function]}
+          height={150}
+          legend={
+            Object {
+              "display": true,
+              "position": "bottom",
+            }
+          }
+          options={Object {}}
+          redraw={false}
+          type="doughnut"
+          width={300}
+        >
+          <canvas
+            height={150}
+            onClick={[Function]}
+            width={300}
+          />
+        </ChartComponent>
+      </span>
+      <span
+        className="LineBreakdown"
+      >
+        <h3>
+          Lines of Code
+        </h3>
+        <ChartComponent
+          className="Doughnut"
+          data={
+            Object {
+              "datasets": Array [
+                Object {
+                  "backgroundColor": Array [],
+                  "data": Array [],
+                  "hoverBackgroundColor": Array [],
+                },
+              ],
+              "labels": Array [],
+            }
+          }
+          datasetKeyProvider={[Function]}
+          height={150}
+          legend={
+            Object {
+              "display": true,
+              "position": "bottom",
+            }
+          }
+          options={Object {}}
+          redraw={false}
+          type="doughnut"
+          width={300}
+        >
+          <canvas
+            height={150}
+            onClick={[Function]}
+            width={300}
+          />
+        </ChartComponent>
+      </span>
+    </div>
+  </div>
+</Overview>
+`;

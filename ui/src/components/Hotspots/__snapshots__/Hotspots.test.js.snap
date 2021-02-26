@@ -1,0 +1,3132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hotspots init() should create with no errors 1`] = `
+<div
+  className="Hotspots"
+>
+  <h2>
+    Code Hotspots
+  </h2>
+  <ReactTable
+    AggregatedComponent={[Function]}
+    ExpanderComponent={[Function]}
+    FilterComponent={[Function]}
+    LoadingComponent={[Function]}
+    NoDataComponent={[Function]}
+    PadRowComponent={[Function]}
+    PaginationComponent={[Function]}
+    PivotValueComponent={[Function]}
+    ResizerComponent={[Function]}
+    TableComponent={[Function]}
+    TbodyComponent={[Function]}
+    TdComponent={[Function]}
+    TfootComponent={[Function]}
+    ThComponent={[Function]}
+    TheadComponent={[Function]}
+    TrComponent={[Function]}
+    TrGroupComponent={[Function]}
+    aggregatedKey="_aggregated"
+    className="-striped -highlight"
+    collapseOnDataChange={true}
+    collapseOnPageChange={true}
+    collapseOnSortingChange={true}
+    column={
+      Object {
+        "Aggregated": undefined,
+        "Cell": undefined,
+        "Expander": undefined,
+        "Filter": undefined,
+        "Footer": undefined,
+        "Header": undefined,
+        "Pivot": undefined,
+        "PivotValue": undefined,
+        "Placeholder": undefined,
+        "aggregate": undefined,
+        "className": "",
+        "filterAll": false,
+        "filterMethod": undefined,
+        "filterable": undefined,
+        "footerClassName": "",
+        "footerStyle": Object {},
+        "getFooterProps": [Function],
+        "getHeaderProps": [Function],
+        "getProps": [Function],
+        "headerClassName": "",
+        "headerStyle": Object {},
+        "minResizeWidth": 11,
+        "minWidth": 100,
+        "resizable": undefined,
+        "show": true,
+        "sortMethod": undefined,
+        "sortable": undefined,
+        "style": Object {},
+      }
+    }
+    columns={
+      Array [
+        Object {
+          "Header": "Entity",
+          "accessor": "name",
+        },
+        Object {
+          "Cell": [Function],
+          "Header": "Number of Revisions",
+          "accessor": "commits",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "commits": 4,
+          "name": "/README.md",
+        },
+        Object {
+          "commits": 7,
+          "name": "/.gitlab/merge_request_templates/merge-request.md",
+        },
+        Object {
+          "commits": 2,
+          "name": "/json-server/package-lock.json",
+        },
+        Object {
+          "commits": 12,
+          "name": "/json-server/routes.json",
+        },
+        Object {
+          "commits": 1,
+          "name": "/json-server/public/index.html",
+        },
+      ]
+    }
+    defaultExpanded={Object {}}
+    defaultFilterMethod={[Function]}
+    defaultFiltered={Array []}
+    defaultPage={0}
+    defaultPageSize={20}
+    defaultResized={Array []}
+    defaultSortDesc={false}
+    defaultSortMethod={[Function]}
+    defaultSorted={Array []}
+    expanderDefaults={
+      Object {
+        "filterable": false,
+        "resizable": false,
+        "sortable": false,
+        "width": 35,
+      }
+    }
+    filterable={false}
+    freezeWhenExpanded={false}
+    getLoadingProps={[Function]}
+    getNoDataProps={[Function]}
+    getPaginationProps={[Function]}
+    getProps={[Function]}
+    getResizerProps={[Function]}
+    getTableProps={[Function]}
+    getTbodyProps={[Function]}
+    getTdProps={[Function]}
+    getTfootProps={[Function]}
+    getTfootTdProps={[Function]}
+    getTfootTrProps={[Function]}
+    getTheadFilterProps={[Function]}
+    getTheadFilterThProps={[Function]}
+    getTheadFilterTrProps={[Function]}
+    getTheadGroupProps={[Function]}
+    getTheadGroupThProps={[Function]}
+    getTheadGroupTrProps={[Function]}
+    getTheadProps={[Function]}
+    getTheadThProps={[Function]}
+    getTheadTrProps={[Function]}
+    getTrGroupProps={[Function]}
+    getTrProps={[Function]}
+    groupedByPivotKey="_groupedByPivot"
+    indexKey="_index"
+    loading={false}
+    loadingText="Loading..."
+    multiSort={true}
+    nestingLevelKey="_nestingLevel"
+    nextText="Next"
+    noDataText="No rows found"
+    ofText="of"
+    onFetchData={[Function]}
+    originalKey="_original"
+    pageJumpText="jump to page"
+    pageSizeOptions={
+      Array [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100,
+      ]
+    }
+    pageText="Page"
+    pivotDefaults={Object {}}
+    pivotIDKey="_pivotID"
+    pivotValKey="_pivotVal"
+    previousText="Previous"
+    resizable={true}
+    resolveData={[Function]}
+    rowsSelectorText="rows per page"
+    rowsText="rows"
+    showPageJump={true}
+    showPageSizeOptions={true}
+    showPagination={true}
+    showPaginationBottom={true}
+    showPaginationTop={false}
+    sortable={true}
+    style={Object {}}
+    subRowsKey="_subRows"
+  />
+</div>
+`;
+
+exports[`Hotspots init() should create with no errors 2`] = `
+<Hotspots
+  revisions={
+    Array [
+      Object {
+        "commits": 4,
+        "name": "/README.md",
+      },
+      Object {
+        "commits": 7,
+        "name": "/.gitlab/merge_request_templates/merge-request.md",
+      },
+      Object {
+        "commits": 2,
+        "name": "/json-server/package-lock.json",
+      },
+      Object {
+        "commits": 12,
+        "name": "/json-server/routes.json",
+      },
+      Object {
+        "commits": 1,
+        "name": "/json-server/public/index.html",
+      },
+    ]
+  }
+>
+  <div
+    className="Hotspots"
+  >
+    <h2>
+      Code Hotspots
+    </h2>
+    <ReactTable
+      AggregatedComponent={[Function]}
+      ExpanderComponent={[Function]}
+      FilterComponent={[Function]}
+      LoadingComponent={[Function]}
+      NoDataComponent={[Function]}
+      PadRowComponent={[Function]}
+      PaginationComponent={[Function]}
+      PivotValueComponent={[Function]}
+      ResizerComponent={[Function]}
+      TableComponent={[Function]}
+      TbodyComponent={[Function]}
+      TdComponent={[Function]}
+      TfootComponent={[Function]}
+      ThComponent={[Function]}
+      TheadComponent={[Function]}
+      TrComponent={[Function]}
+      TrGroupComponent={[Function]}
+      aggregatedKey="_aggregated"
+      className="-striped -highlight"
+      collapseOnDataChange={true}
+      collapseOnPageChange={true}
+      collapseOnSortingChange={true}
+      column={
+        Object {
+          "Aggregated": undefined,
+          "Cell": undefined,
+          "Expander": undefined,
+          "Filter": undefined,
+          "Footer": undefined,
+          "Header": undefined,
+          "Pivot": undefined,
+          "PivotValue": undefined,
+          "Placeholder": undefined,
+          "aggregate": undefined,
+          "className": "",
+          "filterAll": false,
+          "filterMethod": undefined,
+          "filterable": undefined,
+          "footerClassName": "",
+          "footerStyle": Object {},
+          "getFooterProps": [Function],
+          "getHeaderProps": [Function],
+          "getProps": [Function],
+          "headerClassName": "",
+          "headerStyle": Object {},
+          "minResizeWidth": 11,
+          "minWidth": 100,
+          "resizable": undefined,
+          "show": true,
+          "sortMethod": undefined,
+          "sortable": undefined,
+          "style": Object {},
+        }
+      }
+      columns={
+        Array [
+          Object {
+            "Header": "Entity",
+            "accessor": "name",
+          },
+          Object {
+            "Cell": [Function],
+            "Header": "Number of Revisions",
+            "accessor": "commits",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "commits": 4,
+            "name": "/README.md",
+          },
+          Object {
+            "commits": 7,
+            "name": "/.gitlab/merge_request_templates/merge-request.md",
+          },
+          Object {
+            "commits": 2,
+            "name": "/json-server/package-lock.json",
+          },
+          Object {
+            "commits": 12,
+            "name": "/json-server/routes.json",
+          },
+          Object {
+            "commits": 1,
+            "name": "/json-server/public/index.html",
+          },
+        ]
+      }
+      defaultExpanded={Object {}}
+      defaultFilterMethod={[Function]}
+      defaultFiltered={Array []}
+      defaultPage={0}
+      defaultPageSize={20}
+      defaultResized={Array []}
+      defaultSortDesc={false}
+      defaultSortMethod={[Function]}
+      defaultSorted={Array []}
+      expanderDefaults={
+        Object {
+          "filterable": false,
+          "resizable": false,
+          "sortable": false,
+          "width": 35,
+        }
+      }
+      filterable={false}
+      freezeWhenExpanded={false}
+      getLoadingProps={[Function]}
+      getNoDataProps={[Function]}
+      getPaginationProps={[Function]}
+      getProps={[Function]}
+      getResizerProps={[Function]}
+      getTableProps={[Function]}
+      getTbodyProps={[Function]}
+      getTdProps={[Function]}
+      getTfootProps={[Function]}
+      getTfootTdProps={[Function]}
+      getTfootTrProps={[Function]}
+      getTheadFilterProps={[Function]}
+      getTheadFilterThProps={[Function]}
+      getTheadFilterTrProps={[Function]}
+      getTheadGroupProps={[Function]}
+      getTheadGroupThProps={[Function]}
+      getTheadGroupTrProps={[Function]}
+      getTheadProps={[Function]}
+      getTheadThProps={[Function]}
+      getTheadTrProps={[Function]}
+      getTrGroupProps={[Function]}
+      getTrProps={[Function]}
+      groupedByPivotKey="_groupedByPivot"
+      indexKey="_index"
+      loading={false}
+      loadingText="Loading..."
+      multiSort={true}
+      nestingLevelKey="_nestingLevel"
+      nextText="Next"
+      noDataText="No rows found"
+      ofText="of"
+      onFetchData={[Function]}
+      originalKey="_original"
+      pageJumpText="jump to page"
+      pageSizeOptions={
+        Array [
+          5,
+          10,
+          20,
+          25,
+          50,
+          100,
+        ]
+      }
+      pageText="Page"
+      pivotDefaults={Object {}}
+      pivotIDKey="_pivotID"
+      pivotValKey="_pivotVal"
+      previousText="Previous"
+      resizable={true}
+      resolveData={[Function]}
+      rowsSelectorText="rows per page"
+      rowsText="rows"
+      showPageJump={true}
+      showPageSizeOptions={true}
+      showPagination={true}
+      showPaginationBottom={true}
+      showPaginationTop={false}
+      sortable={true}
+      style={Object {}}
+      subRowsKey="_subRows"
+    >
+      <div
+        className="ReactTable -striped -highlight"
+        style={Object {}}
+      >
+        <TableComponent
+          className=""
+        >
+          <div
+            className="rt-table"
+            role="grid"
+          >
+            <Thead
+              className="-header"
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <div
+                className="rt-thead -header"
+                style={
+                  Object {
+                    "minWidth": "200px",
+                  }
+                }
+              >
+                <TrComponent>
+                  <div
+                    className="rt-tr"
+                    role="row"
+                  >
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="0-name"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Entity
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                    <ThComponent
+                      className="rt-resizable-header -cursor-pointer"
+                      key="1-commits"
+                      style={
+                        Object {
+                          "flex": "100 0 auto",
+                          "maxWidth": null,
+                          "width": "100px",
+                        }
+                      }
+                      toggleSort={[Function]}
+                    >
+                      <div
+                        className="rt-th rt-resizable-header -cursor-pointer"
+                        onClick={[Function]}
+                        role="columnheader"
+                        style={
+                          Object {
+                            "flex": "100 0 auto",
+                            "maxWidth": null,
+                            "width": "100px",
+                          }
+                        }
+                        tabIndex="-1"
+                      >
+                        <div
+                          className="rt-resizable-header-content"
+                        >
+                          Number of Revisions
+                        </div>
+                        <Resizer
+                          onMouseDown={[Function]}
+                          onTouchStart={[Function]}
+                        >
+                          <div
+                            className="rt-resizer"
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                          />
+                        </Resizer>
+                      </div>
+                    </ThComponent>
+                  </div>
+                </TrComponent>
+              </div>
+            </Thead>
+            <Tbody
+              className=""
+              style={
+                Object {
+                  "minWidth": "200px",
+                }
+              }
+            >
+              <div
+                className="rt-tbody"
+                style={
+                  Object {
+                    "minWidth": "200px",
+                  }
+                }
+              >
+                <TrGroupComponent
+                  key="0"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-odd"
+                    >
+                      <div
+                        className="rt-tr -odd"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            /README.md
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Number of Revisions",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "commits",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={0}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  0,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "commits": 4,
+                                  "name": "/README.md",
+                                }
+                              }
+                              page={0}
+                              pageSize={20}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 0,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "commits": 4,
+                                    "name": "/README.md",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 0,
+                                  "commits": 4,
+                                  "name": "/README.md",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={4}
+                              viewIndex={0}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                4
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="1"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-even"
+                    >
+                      <div
+                        className="rt-tr -even"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            /.gitlab/merge_request_templates/merge-request.md
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Number of Revisions",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "commits",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={1}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  1,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "commits": 7,
+                                  "name": "/.gitlab/merge_request_templates/merge-request.md",
+                                }
+                              }
+                              page={0}
+                              pageSize={20}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 1,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "commits": 7,
+                                    "name": "/.gitlab/merge_request_templates/merge-request.md",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 1,
+                                  "commits": 7,
+                                  "name": "/.gitlab/merge_request_templates/merge-request.md",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={7}
+                              viewIndex={1}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                7
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="2"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-odd"
+                    >
+                      <div
+                        className="rt-tr -odd"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            /json-server/package-lock.json
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Number of Revisions",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "commits",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={2}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  2,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "commits": 2,
+                                  "name": "/json-server/package-lock.json",
+                                }
+                              }
+                              page={0}
+                              pageSize={20}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 2,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "commits": 2,
+                                    "name": "/json-server/package-lock.json",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 2,
+                                  "commits": 2,
+                                  "name": "/json-server/package-lock.json",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={2}
+                              viewIndex={2}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                2
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="3"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-even"
+                    >
+                      <div
+                        className="rt-tr -even"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            /json-server/routes.json
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Number of Revisions",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "commits",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={3}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  3,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "commits": 12,
+                                  "name": "/json-server/routes.json",
+                                }
+                              }
+                              page={0}
+                              pageSize={20}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 3,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "commits": 12,
+                                    "name": "/json-server/routes.json",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 3,
+                                  "commits": 12,
+                                  "name": "/json-server/routes.json",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={12}
+                              viewIndex={3}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                12
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="4"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-odd"
+                    >
+                      <div
+                        className="rt-tr -odd"
+                        role="row"
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            /json-server/public/index.html
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          onClick={[Function]}
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            onClick={[Function]}
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <Cell
+                              classes={
+                                Array [
+                                  undefined,
+                                  "",
+                                  undefined,
+                                ]
+                              }
+                              column={
+                                Object {
+                                  "Aggregated": undefined,
+                                  "Cell": [Function],
+                                  "Expander": undefined,
+                                  "Filter": undefined,
+                                  "Footer": undefined,
+                                  "Header": "Number of Revisions",
+                                  "Pivot": undefined,
+                                  "PivotValue": undefined,
+                                  "Placeholder": undefined,
+                                  "accessor": [Function],
+                                  "aggregate": undefined,
+                                  "className": "",
+                                  "filterAll": false,
+                                  "filterMethod": undefined,
+                                  "filterable": undefined,
+                                  "footerClassName": "",
+                                  "footerStyle": Object {},
+                                  "getFooterProps": [Function],
+                                  "getHeaderProps": [Function],
+                                  "getProps": [Function],
+                                  "headerClassName": "",
+                                  "headerStyle": Object {},
+                                  "id": "commits",
+                                  "minResizeWidth": 11,
+                                  "minWidth": 100,
+                                  "resizable": undefined,
+                                  "show": true,
+                                  "sortMethod": undefined,
+                                  "sortable": undefined,
+                                  "style": Object {},
+                                }
+                              }
+                              columnProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              index={4}
+                              level={0}
+                              nestingPath={
+                                Array [
+                                  4,
+                                ]
+                              }
+                              original={
+                                Object {
+                                  "commits": 1,
+                                  "name": "/json-server/public/index.html",
+                                }
+                              }
+                              page={0}
+                              pageSize={20}
+                              resized={Array []}
+                              row={
+                                Object {
+                                  "_index": 4,
+                                  "_nestingLevel": 0,
+                                  "_original": Object {
+                                    "commits": 1,
+                                    "name": "/json-server/public/index.html",
+                                  },
+                                  "_subRows": undefined,
+                                  "_viewIndex": 4,
+                                  "commits": 1,
+                                  "name": "/json-server/public/index.html",
+                                }
+                              }
+                              show={true}
+                              styles={Object {}}
+                              tdProps={
+                                Object {
+                                  "className": undefined,
+                                  "rest": Object {},
+                                  "style": undefined,
+                                }
+                              }
+                              value={1}
+                              viewIndex={4}
+                              width={100}
+                            >
+                              <span
+                                className="number"
+                              >
+                                1
+                              </span>
+                            </Cell>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-0"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-1"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-2"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-3"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-4"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-5"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-6"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-7"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-8"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-9"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-10"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-11"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-12"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-13"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -odd"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -odd"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+                <TrGroupComponent
+                  key="pad-14"
+                >
+                  <div
+                    className="rt-tr-group"
+                    role="rowgroup"
+                  >
+                    <TrComponent
+                      className="-padRow -even"
+                      style={Object {}}
+                    >
+                      <div
+                        className="rt-tr -padRow -even"
+                        role="row"
+                        style={Object {}}
+                      >
+                        <TdComponent
+                          className=""
+                          key="0-name"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                        <TdComponent
+                          className=""
+                          key="1-commits"
+                          style={
+                            Object {
+                              "flex": "100 0 auto",
+                              "maxWidth": null,
+                              "width": "100px",
+                            }
+                          }
+                        >
+                          <div
+                            className="rt-td"
+                            role="gridcell"
+                            style={
+                              Object {
+                                "flex": "100 0 auto",
+                                "maxWidth": null,
+                                "width": "100px",
+                              }
+                            }
+                          >
+                            <PadRowComponent>
+                              <span>
+                                 
+                              </span>
+                            </PadRowComponent>
+                          </div>
+                        </TdComponent>
+                      </div>
+                    </TrComponent>
+                  </div>
+                </TrGroupComponent>
+              </div>
+            </Tbody>
+          </div>
+        </TableComponent>
+        <div
+          className="pagination-bottom"
+        >
+          <ReactTablePagination
+            AggregatedComponent={[Function]}
+            ExpanderComponent={[Function]}
+            FilterComponent={[Function]}
+            LoadingComponent={[Function]}
+            NextComponent={[Function]}
+            NoDataComponent={[Function]}
+            PadRowComponent={[Function]}
+            PaginationComponent={[Function]}
+            PivotValueComponent={[Function]}
+            PreviousComponent={[Function]}
+            ResizerComponent={[Function]}
+            TableComponent={[Function]}
+            TbodyComponent={[Function]}
+            TdComponent={[Function]}
+            TfootComponent={[Function]}
+            ThComponent={[Function]}
+            TheadComponent={[Function]}
+            TrComponent={[Function]}
+            TrGroupComponent={[Function]}
+            aggregatedKey="_aggregated"
+            allDecoratedColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Entity",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "name",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Number of Revisions",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "commits",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            allVisibleColumns={
+              Array [
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": undefined,
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Entity",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "name",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+                Object {
+                  "Aggregated": undefined,
+                  "Cell": [Function],
+                  "Expander": undefined,
+                  "Filter": undefined,
+                  "Footer": undefined,
+                  "Header": "Number of Revisions",
+                  "Pivot": undefined,
+                  "PivotValue": undefined,
+                  "Placeholder": undefined,
+                  "accessor": [Function],
+                  "aggregate": undefined,
+                  "className": "",
+                  "filterAll": false,
+                  "filterMethod": undefined,
+                  "filterable": undefined,
+                  "footerClassName": "",
+                  "footerStyle": Object {},
+                  "getFooterProps": [Function],
+                  "getHeaderProps": [Function],
+                  "getProps": [Function],
+                  "headerClassName": "",
+                  "headerStyle": Object {},
+                  "id": "commits",
+                  "minResizeWidth": 11,
+                  "minWidth": 100,
+                  "resizable": undefined,
+                  "show": true,
+                  "sortMethod": undefined,
+                  "sortable": undefined,
+                  "style": Object {},
+                },
+              ]
+            }
+            canNext={false}
+            canPrevious={false}
+            collapseOnDataChange={true}
+            collapseOnPageChange={true}
+            collapseOnSortingChange={true}
+            column={
+              Object {
+                "Aggregated": undefined,
+                "Cell": undefined,
+                "Expander": undefined,
+                "Filter": undefined,
+                "Footer": undefined,
+                "Header": undefined,
+                "Pivot": undefined,
+                "PivotValue": undefined,
+                "Placeholder": undefined,
+                "aggregate": undefined,
+                "className": "",
+                "filterAll": false,
+                "filterMethod": undefined,
+                "filterable": undefined,
+                "footerClassName": "",
+                "footerStyle": Object {},
+                "getFooterProps": [Function],
+                "getHeaderProps": [Function],
+                "getProps": [Function],
+                "headerClassName": "",
+                "headerStyle": Object {},
+                "minResizeWidth": 11,
+                "minWidth": 100,
+                "resizable": undefined,
+                "show": true,
+                "sortMethod": undefined,
+                "sortable": undefined,
+                "style": Object {},
+              }
+            }
+            columns={
+              Array [
+                Object {
+                  "Header": "Entity",
+                  "accessor": "name",
+                },
+                Object {
+                  "Cell": [Function],
+                  "Header": "Number of Revisions",
+                  "accessor": "commits",
+                },
+              ]
+            }
+            currentlyResizing={false}
+            data={
+              Array [
+                Object {
+                  "commits": 4,
+                  "name": "/README.md",
+                },
+                Object {
+                  "commits": 7,
+                  "name": "/.gitlab/merge_request_templates/merge-request.md",
+                },
+                Object {
+                  "commits": 2,
+                  "name": "/json-server/package-lock.json",
+                },
+                Object {
+                  "commits": 12,
+                  "name": "/json-server/routes.json",
+                },
+                Object {
+                  "commits": 1,
+                  "name": "/json-server/public/index.html",
+                },
+              ]
+            }
+            defaultExpanded={Object {}}
+            defaultFilterMethod={[Function]}
+            defaultFiltered={Array []}
+            defaultPage={0}
+            defaultPageSize={20}
+            defaultResized={Array []}
+            defaultSortDesc={false}
+            defaultSortMethod={[Function]}
+            defaultSorted={Array []}
+            expanded={Object {}}
+            expanderDefaults={
+              Object {
+                "filterable": false,
+                "resizable": false,
+                "sortable": false,
+                "width": 35,
+              }
+            }
+            filterable={false}
+            filtered={Array []}
+            freezeWhenExpanded={false}
+            frozen={false}
+            getLoadingProps={[Function]}
+            getNoDataProps={[Function]}
+            getPaginationProps={[Function]}
+            getProps={[Function]}
+            getResizerProps={[Function]}
+            getTableProps={[Function]}
+            getTbodyProps={[Function]}
+            getTdProps={[Function]}
+            getTfootProps={[Function]}
+            getTfootTdProps={[Function]}
+            getTfootTrProps={[Function]}
+            getTheadFilterProps={[Function]}
+            getTheadFilterThProps={[Function]}
+            getTheadFilterTrProps={[Function]}
+            getTheadGroupProps={[Function]}
+            getTheadGroupThProps={[Function]}
+            getTheadGroupTrProps={[Function]}
+            getTheadProps={[Function]}
+            getTheadThProps={[Function]}
+            getTheadTrProps={[Function]}
+            getTrGroupProps={[Function]}
+            getTrProps={[Function]}
+            groupedByPivotKey="_groupedByPivot"
+            hasHeaderGroups={false}
+            headerGroups={Array []}
+            indexKey="_index"
+            isTop={false}
+            loading={false}
+            loadingText="Loading..."
+            multiSort={true}
+            nestingLevelKey="_nestingLevel"
+            nextText="Next"
+            noDataText="No rows found"
+            ofText="of"
+            onFetchData={[Function]}
+            onPageChange={[Function]}
+            onPageSizeChange={[Function]}
+            originalKey="_original"
+            page={0}
+            pageJumpText="jump to page"
+            pageSize={20}
+            pageSizeOptions={
+              Array [
+                5,
+                10,
+                20,
+                25,
+                50,
+                100,
+              ]
+            }
+            pageText="Page"
+            pages={1}
+            pivotDefaults={Object {}}
+            pivotIDKey="_pivotID"
+            pivotValKey="_pivotVal"
+            previousText="Previous"
+            renderCurrentPage={[Function]}
+            renderPageJump={[Function]}
+            renderPageSizeOptions={[Function]}
+            renderTotalPagesCount={[Function]}
+            resizable={true}
+            resized={Array []}
+            resolveData={[Function]}
+            resolvedData={
+              Array [
+                Object {
+                  "_index": 0,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 4,
+                    "name": "/README.md",
+                  },
+                  "_subRows": undefined,
+                  "commits": 4,
+                  "name": "/README.md",
+                },
+                Object {
+                  "_index": 1,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 7,
+                    "name": "/.gitlab/merge_request_templates/merge-request.md",
+                  },
+                  "_subRows": undefined,
+                  "commits": 7,
+                  "name": "/.gitlab/merge_request_templates/merge-request.md",
+                },
+                Object {
+                  "_index": 2,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 2,
+                    "name": "/json-server/package-lock.json",
+                  },
+                  "_subRows": undefined,
+                  "commits": 2,
+                  "name": "/json-server/package-lock.json",
+                },
+                Object {
+                  "_index": 3,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 12,
+                    "name": "/json-server/routes.json",
+                  },
+                  "_subRows": undefined,
+                  "commits": 12,
+                  "name": "/json-server/routes.json",
+                },
+                Object {
+                  "_index": 4,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 1,
+                    "name": "/json-server/public/index.html",
+                  },
+                  "_subRows": undefined,
+                  "commits": 1,
+                  "name": "/json-server/public/index.html",
+                },
+              ]
+            }
+            rowsSelectorText="rows per page"
+            rowsText="rows"
+            showPageJump={true}
+            showPageSizeOptions={true}
+            showPagination={true}
+            showPaginationBottom={true}
+            showPaginationTop={false}
+            skipNextSort={false}
+            sortable={true}
+            sorted={Array []}
+            sortedData={
+              Array [
+                Object {
+                  "_index": 0,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 4,
+                    "name": "/README.md",
+                  },
+                  "_subRows": undefined,
+                  "commits": 4,
+                  "name": "/README.md",
+                },
+                Object {
+                  "_index": 1,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 7,
+                    "name": "/.gitlab/merge_request_templates/merge-request.md",
+                  },
+                  "_subRows": undefined,
+                  "commits": 7,
+                  "name": "/.gitlab/merge_request_templates/merge-request.md",
+                },
+                Object {
+                  "_index": 2,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 2,
+                    "name": "/json-server/package-lock.json",
+                  },
+                  "_subRows": undefined,
+                  "commits": 2,
+                  "name": "/json-server/package-lock.json",
+                },
+                Object {
+                  "_index": 3,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 12,
+                    "name": "/json-server/routes.json",
+                  },
+                  "_subRows": undefined,
+                  "commits": 12,
+                  "name": "/json-server/routes.json",
+                },
+                Object {
+                  "_index": 4,
+                  "_nestingLevel": 0,
+                  "_original": Object {
+                    "commits": 1,
+                    "name": "/json-server/public/index.html",
+                  },
+                  "_subRows": undefined,
+                  "commits": 1,
+                  "name": "/json-server/public/index.html",
+                },
+              ]
+            }
+            subRowsKey="_subRows"
+          >
+            <div
+              className="-pagination"
+            >
+              <div
+                className="-previous"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Previous
+                  </button>
+                </defaultButton>
+              </div>
+              <div
+                className="-center"
+              >
+                <span
+                  className="-pageInfo"
+                >
+                  Page
+                   
+                  <div
+                    className="-pageJump"
+                  >
+                    <input
+                      aria-label="jump to page"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onKeyPress={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                  </div>
+                   
+                  of
+                   
+                  <span
+                    className="-totalPages"
+                  >
+                    1
+                  </span>
+                </span>
+                <span
+                  className="select-wrap -pageSizeOptions"
+                >
+                  <select
+                    aria-label="rows per page"
+                    onChange={[Function]}
+                    value={20}
+                  >
+                    <option
+                      key="0"
+                      value={5}
+                    >
+                      5 rows
+                    </option>
+                    <option
+                      key="1"
+                      value={10}
+                    >
+                      10 rows
+                    </option>
+                    <option
+                      key="2"
+                      value={20}
+                    >
+                      20 rows
+                    </option>
+                    <option
+                      key="3"
+                      value={25}
+                    >
+                      25 rows
+                    </option>
+                    <option
+                      key="4"
+                      value={50}
+                    >
+                      50 rows
+                    </option>
+                    <option
+                      key="5"
+                      value={100}
+                    >
+                      100 rows
+                    </option>
+                  </select>
+                </span>
+              </div>
+              <div
+                className="-next"
+              >
+                <defaultButton
+                  disabled={true}
+                  onClick={[Function]}
+                >
+                  <button
+                    className="-btn"
+                    disabled={true}
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Next
+                  </button>
+                </defaultButton>
+              </div>
+            </div>
+          </ReactTablePagination>
+        </div>
+        <LoadingComponent
+          loading={false}
+          loadingText="Loading..."
+        >
+          <div
+            className="-loading"
+          >
+            <div
+              className="-loading-inner"
+            >
+              Loading...
+            </div>
+          </div>
+        </LoadingComponent>
+      </div>
+    </ReactTable>
+  </div>
+</Hotspots>
+`;

@@ -1,0 +1,55 @@
+{
+    "header": {
+        "cloc_url": "github.com/AlDanial/cloc",
+        "cloc_version": "1.74",
+        "elapsed_seconds": 0.0369269847869873,
+        "n_files": 5,
+        "n_lines": 285,
+        "files_per_second": 135.402335956819,
+        "lines_per_second": 7717.93314953868,
+        "report_file": "../fileStats.json"
+      },
+      "SUM": {
+        "blank": 49,
+        "comment": 28,
+        "code": 208,
+        "nFiles": 5
+      },
+      "files": [
+        {
+          "blank": 19,
+          "comment": 13,
+          "code": 83,
+          "language": "YAML",
+          "name": "./helloworld-master/qa/cloudbuild.yaml"
+        },
+        {
+          "blank": 19,
+          "comment": 12,
+          "code": 83,
+          "language": "YAML",
+          "name": "./helloworld-master/staging/cloudbuild.yaml"
+        },
+        {
+          "blank": 10,
+          "comment": 3,
+          "code": 34,
+          "language": "Go",
+          "name": "./helloworld-master/main.go"
+        },
+        {
+          "blank": 1,
+          "comment": 0,
+          "code": 7,
+          "language": "Dockerfile",
+          "name": "./helloworld-master/Dockerfile"
+        },
+        {
+          "blank": 0,
+          "comment": 0,
+          "code": 1,
+          "language": "Markdown",
+          "name": "./helloworld-master/README.md"
+        }
+      ]
+  }

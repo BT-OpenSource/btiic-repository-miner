@@ -1,0 +1,15 @@
+.FileBreakdown {
+  padding: 5%;
+  width: 35%;
+  float: left;
+}
+
+.LineBreakdown {
+  padding: 5%;
+  width: 35%;
+  float: right;
+}
+
+.Charts {
+  height: 100px;
+}

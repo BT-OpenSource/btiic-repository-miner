@@ -1,0 +1,9 @@
+.inline-div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coupling-header {
+    margin-right: 1vw;
+}

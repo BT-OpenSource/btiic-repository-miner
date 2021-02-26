@@ -1,0 +1,17 @@
+.main-tabs-clear .CodeMetrics .react-tabs__tab-list {
+    background-color: white; 
+}
+
+.main-tabs-warn .CodeMetrics .react-tabs__tab-list {
+  background-color: white; 
+}
+
+
+.CodeMetrics .react-tabs__tab {
+  color: rgb(0, 0, 0);
+}
+
+.CodeMetrics .react-tabs__tab--selected {
+    color: black;
+    border-radius: 5px 5px 0 0;
+}

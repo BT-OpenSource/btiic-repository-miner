@@ -1,0 +1,82 @@
+[
+    {
+        "edge": [
+            "/trunk/qa/cloudbuild.yaml",
+            "/trunk/Dockerfile"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/qa/cloudbuild.yaml",
+            "/trunk/staging/cloudbuild.yaml"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/qa/cloudbuild.yaml",
+            "/trunk/main.go"
+        ],
+        "weight": 1,
+        "percent": 0.2
+    },
+    {
+        "edge": [
+            "/trunk/qa/cloudbuild.yaml",
+            "/trunk/README.md"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/Dockerfile",
+            "/trunk/staging/cloudbuild.yaml"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/Dockerfile",
+            "/trunk/main.go"
+        ],
+        "weight": 1,
+        "percent": 0.2
+    },
+    {
+        "edge": [
+            "/trunk/Dockerfile",
+            "/trunk/README.md"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/staging/cloudbuild.yaml",
+            "/trunk/main.go"
+        ],
+        "weight": 1,
+        "percent": 0.2
+    },
+    {
+        "edge": [
+            "/trunk/staging/cloudbuild.yaml",
+            "/trunk/README.md"
+        ],
+        "weight": 1,
+        "percent": 1.0
+    },
+    {
+        "edge": [
+            "/trunk/main.go",
+            "/trunk/README.md"
+        ],
+        "weight": 1,
+        "percent": 0.2
+    }
+]

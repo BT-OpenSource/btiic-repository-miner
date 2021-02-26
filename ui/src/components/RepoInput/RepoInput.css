@@ -1,0 +1,18 @@
+.repo-input-form {
+    width: 30vw;
+    margin:auto;
+    margin-top: 3vh;
+}
+
+.form-group {
+    margin-bottom: 2vh;
+}
+
+.field {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+}

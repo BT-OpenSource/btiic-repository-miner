@@ -1,0 +1,42 @@
+.main-tabs-warn .react-tabs__tab-list {
+    background-color: #da1507;
+}
+
+.main-tabs-clear .react-tabs__tab-list {
+    background-color: #ae2ad5;
+}
+
+.react-tabs__tab {
+  color: white;
+}
+
+.react-tabs__tab--selected {
+    background:#fff;
+    border-color:#aaa;
+    color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+.spinning {
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.app-bar-icon {
+    margin-right: 1vw;
+}
+
+.repeat-button {
+    margin-left: auto !important;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

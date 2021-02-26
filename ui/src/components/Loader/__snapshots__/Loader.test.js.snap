@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader init() should create with no errors 1`] = `<div />`;
+
+exports[`Loader init() should create with no errors 2`] = `
+<Loader>
+  <div />
+</Loader>
+`;

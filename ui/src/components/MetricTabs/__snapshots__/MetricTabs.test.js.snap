@@ -1,0 +1,1356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MetricTabs init() should create with no errors 1`] = `
+<div>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <img
+        alt=""
+        className="beta-logo"
+        src="beta-logo.png"
+      />
+      <HourglassEmptyIcon
+        className="spinning app-bar-icon"
+      />
+      <WithStyles(ForwardRef(Typography))
+        align="center"
+        color="inherit"
+        variant="h6"
+      >
+        undefined:  
+      </WithStyles(ForwardRef(Typography))>
+      <JobStatusButton
+        activeCalls={Array []}
+      />
+      <WithStyles(ForwardRef(Button))
+        className="repeat-button"
+        color="secondary"
+        onClick={[MockFunction]}
+        variant="outlined"
+      >
+        Select New Repository
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+  <Tabs
+    className="main-tabs-clear"
+    defaultFocus={false}
+    defaultIndex={null}
+    forceRenderTabPanel={false}
+    selectedIndex={null}
+  >
+    <TabList
+      className="react-tabs__tab-list"
+    >
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="1-Overview"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Overview
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="2-Hotspots"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Hotspots
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="3-Complexity"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Complexity
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="4-Coupling"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Coupling
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="5-Ownership"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Ownership
+      </Tab>
+      <Tab
+        className="react-tabs__tab"
+        disabledClassName="react-tabs__tab--disabled"
+        focus={false}
+        id={null}
+        key="6-Metrics"
+        panelId={null}
+        selected={false}
+        selectedClassName="react-tabs__tab--selected"
+      >
+        Code Metrics
+      </Tab>
+    </TabList>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={true}
+      >
+        <Overview
+          breakdown={Array []}
+          files=""
+          loc=""
+        />
+      </Loader>
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={false}
+      >
+        <Hotspots
+          revisions={Array []}
+        />
+      </Loader>
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={false}
+      >
+        <Complexity
+          spaceComplexity={Array []}
+        />
+      </Loader>
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={false}
+      >
+        <Coupling
+          coupling={Array []}
+        />
+      </Loader>
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={false}
+      >
+        <Ownership
+          ownership={Array []}
+        />
+      </Loader>
+    </TabPanel>
+    <TabPanel
+      className="react-tabs__tab-panel"
+      forceRender={false}
+      selectedClassName="react-tabs__tab-panel--selected"
+    >
+      <Loader
+        loading={false}
+      >
+        <CodeMetrics
+          cppfilestats={Array []}
+          gofilestats={Array []}
+          javafilestats={Array []}
+          jsfilestats={Array []}
+          luafilestats={Array []}
+          phpfilestats={Array []}
+          pythonfilestats={Array []}
+          rubyfilestats={Array []}
+          scalafilestats={Array []}
+          swiftfilestats={Array []}
+          ttcn3filestats={Array []}
+          ttcnfilestats={Array []}
+        />
+      </Loader>
+    </TabPanel>
+  </Tabs>
+</div>
+`;
+
+exports[`MetricTabs init() should create with no errors 2`] = `
+<MetricTabs
+  inflightRequests={Object {}}
+  return={[MockFunction]}
+  socketConnected={true}
+  socketId="socket-id-string"
+  submitEvent={[MockFunction]}
+>
+  <div>
+    <WithStyles(ForwardRef(AppBar))
+      position="static"
+    >
+      <ForwardRef(AppBar)
+        classes={
+          Object {
+            "colorDefault": "MuiAppBar-colorDefault",
+            "colorInherit": "MuiAppBar-colorInherit",
+            "colorPrimary": "MuiAppBar-colorPrimary",
+            "colorSecondary": "MuiAppBar-colorSecondary",
+            "colorTransparent": "MuiAppBar-colorTransparent",
+            "positionAbsolute": "MuiAppBar-positionAbsolute",
+            "positionFixed": "MuiAppBar-positionFixed",
+            "positionRelative": "MuiAppBar-positionRelative",
+            "positionStatic": "MuiAppBar-positionStatic",
+            "positionSticky": "MuiAppBar-positionSticky",
+            "root": "MuiAppBar-root",
+          }
+        }
+        position="static"
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+          component="header"
+          elevation={4}
+          square={true}
+        >
+          <ForwardRef(Paper)
+            className="MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "outlined": "MuiPaper-outlined",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            component="header"
+            elevation={4}
+            square={true}
+          >
+            <header
+              className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+            >
+              <WithStyles(ForwardRef(Toolbar))>
+                <ForwardRef(Toolbar)
+                  classes={
+                    Object {
+                      "dense": "MuiToolbar-dense",
+                      "gutters": "MuiToolbar-gutters",
+                      "regular": "MuiToolbar-regular",
+                      "root": "MuiToolbar-root",
+                    }
+                  }
+                >
+                  <div
+                    className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+                  >
+                    <img
+                      alt=""
+                      className="beta-logo"
+                      src="beta-logo.png"
+                    />
+                    <ForwardRef
+                      className="spinning app-bar-icon"
+                    >
+                      <WithStyles(ForwardRef(SvgIcon))
+                        className="spinning app-bar-icon"
+                      >
+                        <ForwardRef(SvgIcon)
+                          className="spinning app-bar-icon"
+                          classes={
+                            Object {
+                              "colorAction": "MuiSvgIcon-colorAction",
+                              "colorDisabled": "MuiSvgIcon-colorDisabled",
+                              "colorError": "MuiSvgIcon-colorError",
+                              "colorPrimary": "MuiSvgIcon-colorPrimary",
+                              "colorSecondary": "MuiSvgIcon-colorSecondary",
+                              "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                              "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                              "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                              "root": "MuiSvgIcon-root",
+                            }
+                          }
+                        >
+                          <svg
+                            aria-hidden={true}
+                            className="MuiSvgIcon-root spinning app-bar-icon"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M6 2v6h.01L6 8.01 10 12l-4 4 .01.01H6V22h12v-5.99h-.01L18 16l-4-4 4-3.99-.01-.01H18V2H6zm10 14.5V20H8v-3.5l4-4 4 4zm-4-5l-4-4V4h8v3.5l-4 4z"
+                            />
+                          </svg>
+                        </ForwardRef(SvgIcon)>
+                      </WithStyles(ForwardRef(SvgIcon))>
+                    </ForwardRef>
+                    <WithStyles(ForwardRef(Typography))
+                      align="center"
+                      color="inherit"
+                      variant="h6"
+                    >
+                      <ForwardRef(Typography)
+                        align="center"
+                        classes={
+                          Object {
+                            "alignCenter": "MuiTypography-alignCenter",
+                            "alignJustify": "MuiTypography-alignJustify",
+                            "alignLeft": "MuiTypography-alignLeft",
+                            "alignRight": "MuiTypography-alignRight",
+                            "body1": "MuiTypography-body1",
+                            "body2": "MuiTypography-body2",
+                            "button": "MuiTypography-button",
+                            "caption": "MuiTypography-caption",
+                            "colorError": "MuiTypography-colorError",
+                            "colorInherit": "MuiTypography-colorInherit",
+                            "colorPrimary": "MuiTypography-colorPrimary",
+                            "colorSecondary": "MuiTypography-colorSecondary",
+                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                            "displayBlock": "MuiTypography-displayBlock",
+                            "displayInline": "MuiTypography-displayInline",
+                            "gutterBottom": "MuiTypography-gutterBottom",
+                            "h1": "MuiTypography-h1",
+                            "h2": "MuiTypography-h2",
+                            "h3": "MuiTypography-h3",
+                            "h4": "MuiTypography-h4",
+                            "h5": "MuiTypography-h5",
+                            "h6": "MuiTypography-h6",
+                            "noWrap": "MuiTypography-noWrap",
+                            "overline": "MuiTypography-overline",
+                            "paragraph": "MuiTypography-paragraph",
+                            "root": "MuiTypography-root",
+                            "srOnly": "MuiTypography-srOnly",
+                            "subtitle1": "MuiTypography-subtitle1",
+                            "subtitle2": "MuiTypography-subtitle2",
+                          }
+                        }
+                        color="inherit"
+                        variant="h6"
+                      >
+                        <h6
+                          className="MuiTypography-root MuiTypography-h6 MuiTypography-colorInherit MuiTypography-alignCenter"
+                        >
+                          undefined:  
+                        </h6>
+                      </ForwardRef(Typography)>
+                    </WithStyles(ForwardRef(Typography))>
+                    <JobStatusButton
+                      activeCalls={Array []}
+                    >
+                      <div>
+                        <WithStyles(ForwardRef(Button))
+                          className="open-dialogue repeat-button"
+                          color="secondary"
+                          onClick={[Function]}
+                          variant="outlined"
+                        >
+                          <ForwardRef(Button)
+                            className="open-dialogue repeat-button"
+                            classes={
+                              Object {
+                                "colorInherit": "MuiButton-colorInherit",
+                                "contained": "MuiButton-contained",
+                                "containedPrimary": "MuiButton-containedPrimary",
+                                "containedSecondary": "MuiButton-containedSecondary",
+                                "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                "disableElevation": "MuiButton-disableElevation",
+                                "disabled": "Mui-disabled",
+                                "endIcon": "MuiButton-endIcon",
+                                "focusVisible": "Mui-focusVisible",
+                                "fullWidth": "MuiButton-fullWidth",
+                                "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                "label": "MuiButton-label",
+                                "outlined": "MuiButton-outlined",
+                                "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                "root": "MuiButton-root",
+                                "sizeLarge": "MuiButton-sizeLarge",
+                                "sizeSmall": "MuiButton-sizeSmall",
+                                "startIcon": "MuiButton-startIcon",
+                                "text": "MuiButton-text",
+                                "textPrimary": "MuiButton-textPrimary",
+                                "textSecondary": "MuiButton-textSecondary",
+                                "textSizeLarge": "MuiButton-textSizeLarge",
+                                "textSizeSmall": "MuiButton-textSizeSmall",
+                              }
+                            }
+                            color="secondary"
+                            onClick={[Function]}
+                            variant="outlined"
+                          >
+                            <WithStyles(ForwardRef(ButtonBase))
+                              className="MuiButton-root MuiButton-outlined open-dialogue repeat-button MuiButton-outlinedSecondary"
+                              component="button"
+                              disabled={false}
+                              focusRipple={true}
+                              focusVisibleClassName="Mui-focusVisible"
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              <ForwardRef(ButtonBase)
+                                className="MuiButton-root MuiButton-outlined open-dialogue repeat-button MuiButton-outlinedSecondary"
+                                classes={
+                                  Object {
+                                    "disabled": "Mui-disabled",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "root": "MuiButtonBase-root",
+                                  }
+                                }
+                                component="button"
+                                disabled={false}
+                                focusRipple={true}
+                                focusVisibleClassName="Mui-focusVisible"
+                                onClick={[Function]}
+                                type="button"
+                              >
+                                <button
+                                  className="MuiButtonBase-root MuiButton-root MuiButton-outlined open-dialogue repeat-button MuiButton-outlinedSecondary"
+                                  disabled={false}
+                                  onBlur={[Function]}
+                                  onClick={[Function]}
+                                  onDragLeave={[Function]}
+                                  onFocus={[Function]}
+                                  onKeyDown={[Function]}
+                                  onKeyUp={[Function]}
+                                  onMouseDown={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onMouseUp={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchMove={[Function]}
+                                  onTouchStart={[Function]}
+                                  tabIndex={0}
+                                  type="button"
+                                >
+                                  <span
+                                    className="MuiButton-label"
+                                  >
+                                    Job Progress 
+                                    0
+                                    /11
+                                  </span>
+                                  <WithStyles(memo)
+                                    center={false}
+                                  >
+                                    <ForwardRef(TouchRipple)
+                                      center={false}
+                                      classes={
+                                        Object {
+                                          "child": "MuiTouchRipple-child",
+                                          "childLeaving": "MuiTouchRipple-childLeaving",
+                                          "childPulsate": "MuiTouchRipple-childPulsate",
+                                          "ripple": "MuiTouchRipple-ripple",
+                                          "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                          "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                          "root": "MuiTouchRipple-root",
+                                        }
+                                      }
+                                    >
+                                      <span
+                                        className="MuiTouchRipple-root"
+                                      >
+                                        <TransitionGroup
+                                          childFactory={[Function]}
+                                          component={null}
+                                          exit={true}
+                                        />
+                                      </span>
+                                    </ForwardRef(TouchRipple)>
+                                  </WithStyles(memo)>
+                                </button>
+                              </ForwardRef(ButtonBase)>
+                            </WithStyles(ForwardRef(ButtonBase))>
+                          </ForwardRef(Button)>
+                        </WithStyles(ForwardRef(Button))>
+                        <WithStyles(ForwardRef(Dialog))
+                          TransitionComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "render": [Function],
+                            }
+                          }
+                          className="dialog"
+                          fullScreen={true}
+                          onClose={[Function]}
+                          open={false}
+                        >
+                          <ForwardRef(Dialog)
+                            TransitionComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "render": [Function],
+                              }
+                            }
+                            className="dialog"
+                            classes={
+                              Object {
+                                "container": "MuiDialog-container",
+                                "paper": "MuiDialog-paper",
+                                "paperFullScreen": "MuiDialog-paperFullScreen",
+                                "paperFullWidth": "MuiDialog-paperFullWidth",
+                                "paperScrollBody": "MuiDialog-paperScrollBody",
+                                "paperScrollPaper": "MuiDialog-paperScrollPaper",
+                                "paperWidthFalse": "MuiDialog-paperWidthFalse",
+                                "paperWidthLg": "MuiDialog-paperWidthLg",
+                                "paperWidthMd": "MuiDialog-paperWidthMd",
+                                "paperWidthSm": "MuiDialog-paperWidthSm",
+                                "paperWidthXl": "MuiDialog-paperWidthXl",
+                                "paperWidthXs": "MuiDialog-paperWidthXs",
+                                "root": "MuiDialog-root",
+                                "scrollBody": "MuiDialog-scrollBody",
+                                "scrollPaper": "MuiDialog-scrollPaper",
+                              }
+                            }
+                            fullScreen={true}
+                            onClose={[Function]}
+                            open={false}
+                          >
+                            <ForwardRef(Modal)
+                              BackdropComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "Naked": Object {
+                                    "$$typeof": Symbol(react.forward_ref),
+                                    "propTypes": Object {
+                                      "children": [Function],
+                                      "className": [Function],
+                                      "classes": [Function],
+                                      "invisible": [Function],
+                                      "open": [Function],
+                                      "transitionDuration": [Function],
+                                    },
+                                    "render": [Function],
+                                  },
+                                  "displayName": "WithStyles(ForwardRef(Backdrop))",
+                                  "options": Object {
+                                    "defaultTheme": Object {
+                                      "breakpoints": Object {
+                                        "between": [Function],
+                                        "down": [Function],
+                                        "keys": Array [
+                                          "xs",
+                                          "sm",
+                                          "md",
+                                          "lg",
+                                          "xl",
+                                        ],
+                                        "only": [Function],
+                                        "up": [Function],
+                                        "values": Object {
+                                          "lg": 1280,
+                                          "md": 960,
+                                          "sm": 600,
+                                          "xl": 1920,
+                                          "xs": 0,
+                                        },
+                                        "width": [Function],
+                                      },
+                                      "direction": "ltr",
+                                      "mixins": Object {
+                                        "gutters": [Function],
+                                        "toolbar": Object {
+                                          "@media (min-width:0px) and (orientation: landscape)": Object {
+                                            "minHeight": 48,
+                                          },
+                                          "@media (min-width:600px)": Object {
+                                            "minHeight": 64,
+                                          },
+                                          "minHeight": 56,
+                                        },
+                                      },
+                                      "overrides": Object {},
+                                      "palette": Object {
+                                        "action": Object {
+                                          "activatedOpacity": 0.12,
+                                          "active": "rgba(0, 0, 0, 0.54)",
+                                          "disabled": "rgba(0, 0, 0, 0.26)",
+                                          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
+                                        },
+                                        "augmentColor": [Function],
+                                        "background": Object {
+                                          "default": "#fafafa",
+                                          "paper": "#fff",
+                                        },
+                                        "common": Object {
+                                          "black": "#000",
+                                          "white": "#fff",
+                                        },
+                                        "contrastThreshold": 3,
+                                        "divider": "rgba(0, 0, 0, 0.12)",
+                                        "error": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#d32f2f",
+                                          "light": "#e57373",
+                                          "main": "#f44336",
+                                        },
+                                        "getContrastText": [Function],
+                                        "grey": Object {
+                                          "100": "#f5f5f5",
+                                          "200": "#eeeeee",
+                                          "300": "#e0e0e0",
+                                          "400": "#bdbdbd",
+                                          "50": "#fafafa",
+                                          "500": "#9e9e9e",
+                                          "600": "#757575",
+                                          "700": "#616161",
+                                          "800": "#424242",
+                                          "900": "#212121",
+                                          "A100": "#d5d5d5",
+                                          "A200": "#aaaaaa",
+                                          "A400": "#303030",
+                                          "A700": "#616161",
+                                        },
+                                        "info": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#1976d2",
+                                          "light": "#64b5f6",
+                                          "main": "#2196f3",
+                                        },
+                                        "primary": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#303f9f",
+                                          "light": "#7986cb",
+                                          "main": "#3f51b5",
+                                        },
+                                        "secondary": Object {
+                                          "contrastText": "#fff",
+                                          "dark": "#c51162",
+                                          "light": "#ff4081",
+                                          "main": "#f50057",
+                                        },
+                                        "success": Object {
+                                          "contrastText": "rgba(0, 0, 0, 0.87)",
+                                          "dark": "#388e3c",
+                                          "light": "#81c784",
+                                          "main": "#4caf50",
+                                        },
+                                        "text": Object {
+                                          "disabled": "rgba(0, 0, 0, 0.38)",
+                                          "hint": "rgba(0, 0, 0, 0.38)",
+                                          "primary": "rgba(0, 0, 0, 0.87)",
+                                          "secondary": "rgba(0, 0, 0, 0.54)",
+                                        },
+                                        "tonalOffset": 0.2,
+                                        "type": "light",
+                                        "warning": Object {
+                                          "contrastText": "rgba(0, 0, 0, 0.87)",
+                                          "dark": "#f57c00",
+                                          "light": "#ffb74d",
+                                          "main": "#ff9800",
+                                        },
+                                      },
+                                      "props": Object {},
+                                      "shadows": Array [
+                                        "none",
+                                        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                                        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                                        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                                        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                                        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                                        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                                        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                                        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                                        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                                        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                                        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                                        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                                        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                                        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                                        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                                        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                                        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                                        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                                        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                                      ],
+                                      "shape": Object {
+                                        "borderRadius": 4,
+                                      },
+                                      "spacing": [Function],
+                                      "transitions": Object {
+                                        "create": [Function],
+                                        "duration": Object {
+                                          "complex": 375,
+                                          "enteringScreen": 225,
+                                          "leavingScreen": 195,
+                                          "short": 250,
+                                          "shorter": 200,
+                                          "shortest": 150,
+                                          "standard": 300,
+                                        },
+                                        "easing": Object {
+                                          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                                          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                                          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                                          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                                        },
+                                        "getAutoHeightDuration": [Function],
+                                      },
+                                      "typography": Object {
+                                        "body1": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00938em",
+                                          "lineHeight": 1.5,
+                                        },
+                                        "body2": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.01071em",
+                                          "lineHeight": 1.43,
+                                        },
+                                        "button": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.02857em",
+                                          "lineHeight": 1.75,
+                                          "textTransform": "uppercase",
+                                        },
+                                        "caption": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.75rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.03333em",
+                                          "lineHeight": 1.66,
+                                        },
+                                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                        "fontSize": 14,
+                                        "fontWeightBold": 700,
+                                        "fontWeightLight": 300,
+                                        "fontWeightMedium": 500,
+                                        "fontWeightRegular": 400,
+                                        "h1": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "6rem",
+                                          "fontWeight": 300,
+                                          "letterSpacing": "-0.01562em",
+                                          "lineHeight": 1.167,
+                                        },
+                                        "h2": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "3.75rem",
+                                          "fontWeight": 300,
+                                          "letterSpacing": "-0.00833em",
+                                          "lineHeight": 1.2,
+                                        },
+                                        "h3": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "3rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0em",
+                                          "lineHeight": 1.167,
+                                        },
+                                        "h4": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "2.125rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00735em",
+                                          "lineHeight": 1.235,
+                                        },
+                                        "h5": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.5rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0em",
+                                          "lineHeight": 1.334,
+                                        },
+                                        "h6": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1.25rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.0075em",
+                                          "lineHeight": 1.6,
+                                        },
+                                        "htmlFontSize": 16,
+                                        "overline": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.75rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.08333em",
+                                          "lineHeight": 2.66,
+                                          "textTransform": "uppercase",
+                                        },
+                                        "pxToRem": [Function],
+                                        "round": [Function],
+                                        "subtitle1": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "1rem",
+                                          "fontWeight": 400,
+                                          "letterSpacing": "0.00938em",
+                                          "lineHeight": 1.75,
+                                        },
+                                        "subtitle2": Object {
+                                          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                                          "fontSize": "0.875rem",
+                                          "fontWeight": 500,
+                                          "letterSpacing": "0.00714em",
+                                          "lineHeight": 1.57,
+                                        },
+                                      },
+                                      "zIndex": Object {
+                                        "appBar": 1100,
+                                        "drawer": 1200,
+                                        "mobileStepper": 1000,
+                                        "modal": 1300,
+                                        "snackbar": 1400,
+                                        "speedDial": 1050,
+                                        "tooltip": 1500,
+                                      },
+                                    },
+                                    "name": "MuiBackdrop",
+                                  },
+                                  "propTypes": Object {
+                                    "classes": [Function],
+                                    "innerRef": [Function],
+                                  },
+                                  "render": [Function],
+                                  "useStyles": [Function],
+                                }
+                              }
+                              BackdropProps={
+                                Object {
+                                  "transitionDuration": Object {
+                                    "enter": 225,
+                                    "exit": 195,
+                                  },
+                                }
+                              }
+                              className="MuiDialog-root dialog"
+                              closeAfterTransition={true}
+                              disableBackdropClick={false}
+                              disableEscapeKeyDown={false}
+                              onClose={[Function]}
+                              open={false}
+                            />
+                          </ForwardRef(Dialog)>
+                        </WithStyles(ForwardRef(Dialog))>
+                      </div>
+                    </JobStatusButton>
+                    <WithStyles(ForwardRef(Button))
+                      className="repeat-button"
+                      color="secondary"
+                      onClick={[MockFunction]}
+                      variant="outlined"
+                    >
+                      <ForwardRef(Button)
+                        className="repeat-button"
+                        classes={
+                          Object {
+                            "colorInherit": "MuiButton-colorInherit",
+                            "contained": "MuiButton-contained",
+                            "containedPrimary": "MuiButton-containedPrimary",
+                            "containedSecondary": "MuiButton-containedSecondary",
+                            "containedSizeLarge": "MuiButton-containedSizeLarge",
+                            "containedSizeSmall": "MuiButton-containedSizeSmall",
+                            "disableElevation": "MuiButton-disableElevation",
+                            "disabled": "Mui-disabled",
+                            "endIcon": "MuiButton-endIcon",
+                            "focusVisible": "Mui-focusVisible",
+                            "fullWidth": "MuiButton-fullWidth",
+                            "iconSizeLarge": "MuiButton-iconSizeLarge",
+                            "iconSizeMedium": "MuiButton-iconSizeMedium",
+                            "iconSizeSmall": "MuiButton-iconSizeSmall",
+                            "label": "MuiButton-label",
+                            "outlined": "MuiButton-outlined",
+                            "outlinedPrimary": "MuiButton-outlinedPrimary",
+                            "outlinedSecondary": "MuiButton-outlinedSecondary",
+                            "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                            "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                            "root": "MuiButton-root",
+                            "sizeLarge": "MuiButton-sizeLarge",
+                            "sizeSmall": "MuiButton-sizeSmall",
+                            "startIcon": "MuiButton-startIcon",
+                            "text": "MuiButton-text",
+                            "textPrimary": "MuiButton-textPrimary",
+                            "textSecondary": "MuiButton-textSecondary",
+                            "textSizeLarge": "MuiButton-textSizeLarge",
+                            "textSizeSmall": "MuiButton-textSizeSmall",
+                          }
+                        }
+                        color="secondary"
+                        onClick={[MockFunction]}
+                        variant="outlined"
+                      >
+                        <WithStyles(ForwardRef(ButtonBase))
+                          className="MuiButton-root MuiButton-outlined repeat-button MuiButton-outlinedSecondary"
+                          component="button"
+                          disabled={false}
+                          focusRipple={true}
+                          focusVisibleClassName="Mui-focusVisible"
+                          onClick={[MockFunction]}
+                          type="button"
+                        >
+                          <ForwardRef(ButtonBase)
+                            className="MuiButton-root MuiButton-outlined repeat-button MuiButton-outlinedSecondary"
+                            classes={
+                              Object {
+                                "disabled": "Mui-disabled",
+                                "focusVisible": "Mui-focusVisible",
+                                "root": "MuiButtonBase-root",
+                              }
+                            }
+                            component="button"
+                            disabled={false}
+                            focusRipple={true}
+                            focusVisibleClassName="Mui-focusVisible"
+                            onClick={[MockFunction]}
+                            type="button"
+                          >
+                            <button
+                              className="MuiButtonBase-root MuiButton-root MuiButton-outlined repeat-button MuiButton-outlinedSecondary"
+                              disabled={false}
+                              onBlur={[Function]}
+                              onClick={[MockFunction]}
+                              onDragLeave={[Function]}
+                              onFocus={[Function]}
+                              onKeyDown={[Function]}
+                              onKeyUp={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchMove={[Function]}
+                              onTouchStart={[Function]}
+                              tabIndex={0}
+                              type="button"
+                            >
+                              <span
+                                className="MuiButton-label"
+                              >
+                                Select New Repository
+                              </span>
+                              <WithStyles(memo)
+                                center={false}
+                              >
+                                <ForwardRef(TouchRipple)
+                                  center={false}
+                                  classes={
+                                    Object {
+                                      "child": "MuiTouchRipple-child",
+                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                      "ripple": "MuiTouchRipple-ripple",
+                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                      "root": "MuiTouchRipple-root",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="MuiTouchRipple-root"
+                                  >
+                                    <TransitionGroup
+                                      childFactory={[Function]}
+                                      component={null}
+                                      exit={true}
+                                    />
+                                  </span>
+                                </ForwardRef(TouchRipple)>
+                              </WithStyles(memo)>
+                            </button>
+                          </ForwardRef(ButtonBase)>
+                        </WithStyles(ForwardRef(ButtonBase))>
+                      </ForwardRef(Button)>
+                    </WithStyles(ForwardRef(Button))>
+                  </div>
+                </ForwardRef(Toolbar)>
+              </WithStyles(ForwardRef(Toolbar))>
+            </header>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(AppBar)>
+    </WithStyles(ForwardRef(AppBar))>
+    <Tabs
+      className="main-tabs-clear"
+      defaultFocus={false}
+      defaultIndex={null}
+      forceRenderTabPanel={false}
+      selectedIndex={null}
+    >
+      <UncontrolledTabs
+        className="main-tabs-clear"
+        focus={false}
+        forceRenderTabPanel={false}
+        onSelect={[Function]}
+        selectedIndex={0}
+      >
+        <div
+          className="main-tabs-clear"
+          data-tabs={true}
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          <TabList
+            className="react-tabs__tab-list"
+            key=".0"
+          >
+            <ul
+              className="react-tabs__tab-list"
+              role="tablist"
+            >
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-0"
+                key=".$1-Overview"
+                panelId="react-tabs-1"
+                selected={true}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-1"
+                  aria-disabled="false"
+                  aria-selected="true"
+                  className="react-tabs__tab react-tabs__tab--selected"
+                  id="react-tabs-0"
+                  role="tab"
+                  tabIndex="0"
+                >
+                  Overview
+                </li>
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-2"
+                key=".$2-Hotspots"
+                panelId="react-tabs-3"
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-3"
+                  aria-disabled="false"
+                  aria-selected="false"
+                  className="react-tabs__tab"
+                  id="react-tabs-2"
+                  role="tab"
+                  tabIndex={null}
+                >
+                  Hotspots
+                </li>
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-4"
+                key=".$3-Complexity"
+                panelId="react-tabs-5"
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-5"
+                  aria-disabled="false"
+                  aria-selected="false"
+                  className="react-tabs__tab"
+                  id="react-tabs-4"
+                  role="tab"
+                  tabIndex={null}
+                >
+                  Complexity
+                </li>
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-6"
+                key=".$4-Coupling"
+                panelId="react-tabs-7"
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-7"
+                  aria-disabled="false"
+                  aria-selected="false"
+                  className="react-tabs__tab"
+                  id="react-tabs-6"
+                  role="tab"
+                  tabIndex={null}
+                >
+                  Coupling
+                </li>
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-8"
+                key=".$5-Ownership"
+                panelId="react-tabs-9"
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-9"
+                  aria-disabled="false"
+                  aria-selected="false"
+                  className="react-tabs__tab"
+                  id="react-tabs-8"
+                  role="tab"
+                  tabIndex={null}
+                >
+                  Ownership
+                </li>
+              </Tab>
+              <Tab
+                className="react-tabs__tab"
+                disabledClassName="react-tabs__tab--disabled"
+                focus={false}
+                id="react-tabs-10"
+                key=".$6-Metrics"
+                panelId="react-tabs-11"
+                selected={false}
+                selectedClassName="react-tabs__tab--selected"
+                tabRef={[Function]}
+              >
+                <li
+                  aria-controls="react-tabs-11"
+                  aria-disabled="false"
+                  aria-selected="false"
+                  className="react-tabs__tab"
+                  id="react-tabs-10"
+                  role="tab"
+                  tabIndex={null}
+                >
+                  Code Metrics
+                </li>
+              </Tab>
+            </ul>
+          </TabList>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-1"
+            key=".1"
+            selected={true}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-0"
+          >
+            <div
+              aria-labelledby="react-tabs-0"
+              className="react-tabs__tab-panel react-tabs__tab-panel--selected"
+              id="react-tabs-1"
+              role="tabpanel"
+            >
+              <Loader
+                loading={true}
+              >
+                <div
+                  className="loading"
+                >
+                  <FontAwesomeIcon
+                    border={false}
+                    className=""
+                    fixedWidth={false}
+                    flip={null}
+                    icon="spinner"
+                    inverse={false}
+                    listItem={false}
+                    mask={null}
+                    pull={null}
+                    pulse={true}
+                    rotation={null}
+                    size="4x"
+                    spin={false}
+                    swapOpacity={false}
+                    symbol={false}
+                    title=""
+                    transform={null}
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="svg-inline--fa fa-spinner fa-w-16 fa-pulse fa-4x "
+                      data-icon="spinner"
+                      data-prefix="fas"
+                      focusable="false"
+                      role="img"
+                      style={Object {}}
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"
+                        fill="currentColor"
+                        style={Object {}}
+                      />
+                    </svg>
+                  </FontAwesomeIcon>
+                </div>
+              </Loader>
+            </div>
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-3"
+            key=".2"
+            selected={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-2"
+          >
+            <div
+              aria-labelledby="react-tabs-2"
+              className="react-tabs__tab-panel"
+              id="react-tabs-3"
+              role="tabpanel"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-5"
+            key=".3"
+            selected={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-4"
+          >
+            <div
+              aria-labelledby="react-tabs-4"
+              className="react-tabs__tab-panel"
+              id="react-tabs-5"
+              role="tabpanel"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-7"
+            key=".4"
+            selected={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-6"
+          >
+            <div
+              aria-labelledby="react-tabs-6"
+              className="react-tabs__tab-panel"
+              id="react-tabs-7"
+              role="tabpanel"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-9"
+            key=".5"
+            selected={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-8"
+          >
+            <div
+              aria-labelledby="react-tabs-8"
+              className="react-tabs__tab-panel"
+              id="react-tabs-9"
+              role="tabpanel"
+            />
+          </TabPanel>
+          <TabPanel
+            className="react-tabs__tab-panel"
+            forceRender={false}
+            id="react-tabs-11"
+            key=".6"
+            selected={false}
+            selectedClassName="react-tabs__tab-panel--selected"
+            tabId="react-tabs-10"
+          >
+            <div
+              aria-labelledby="react-tabs-10"
+              className="react-tabs__tab-panel"
+              id="react-tabs-11"
+              role="tabpanel"
+            />
+          </TabPanel>
+        </div>
+      </UncontrolledTabs>
+    </Tabs>
+  </div>
+</MetricTabs>
+`;
